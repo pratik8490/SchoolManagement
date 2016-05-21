@@ -1,0 +1,223 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>8.0.30703</ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{867DDFC1-6BDD-4FFB-9ACB-E41A94EECE14}</ProjectGuid>
+    <ProjectTypeGuids>{EFBA0AD7-5A72-4C68-AF49-83D382785DCF};{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>SchoolManagement.Droid</RootNamespace>
+    <AssemblyName>SchoolManagement.Android</AssemblyName>
+    <FileAlignment>512</FileAlignment>
+    <AndroidApplication>true</AndroidApplication>
+    <AndroidResgenFile>Resources\Resource.Designer.cs</AndroidResgenFile>
+    <GenerateSerializationAssemblies>Off</GenerateSerializationAssemblies>
+    <AndroidManifest>Properties\AndroidManifest.xml</AndroidManifest>
+    <AndroidUseLatestPlatformSdk />
+    <TargetFrameworkVersion>v5.0 </TargetFrameworkVersion>
+    <AndroidSupportedAbis>armeabi,armeabi-v7a,x86</AndroidSupportedAbis>
+    <AndroidStoreUncompressedFileExtensions />
+    <MandroidI18n />
+    <JavaMaximumHeapSize />
+    <JavaOptions />
+    <AndroidUseLatestPlatformSdk>true</AndroidUseLatestPlatformSdk>
+    <NuGetPackageImportStamp>7379b6a1</NuGetPackageImportStamp>
+    <SolutionDir Condition="$(SolutionDir) == '' Or $(SolutionDir) == '*Undefined*'">..\..\</SolutionDir>
+    <RestorePackages>true</RestorePackages>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AndroidUseSharedRuntime>True</AndroidUseSharedRuntime>
+    <AndroidLinkMode>None</AndroidLinkMode>
+    <AndroidLinkSkip />
+    <EmbedAssembliesIntoApk>False</EmbedAssembliesIntoApk>
+    <BundleAssemblies>False</BundleAssemblies>
+    <AndroidCreatePackagePerAbi>False</AndroidCreatePackagePerAbi>
+    <AndroidSupportedAbis>armeabi,armeabi-v7a,x86</AndroidSupportedAbis>
+    <AndroidStoreUncompressedFileExtensions />
+    <MandroidI18n />
+    <JavaMaximumHeapSize>1G</JavaMaximumHeapSize>
+    <JavaOptions />
+    <MonoDroidExtraArgs />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+    <AndroidUseSharedRuntime>False</AndroidUseSharedRuntime>
+    <AndroidLinkMode>SdkOnly</AndroidLinkMode>
+    <AndroidLinkSkip />
+    <EmbedAssembliesIntoApk>True</EmbedAssembliesIntoApk>
+    <BundleAssemblies>False</BundleAssemblies>
+    <AndroidCreatePackagePerAbi>True</AndroidCreatePackagePerAbi>
+    <AndroidSupportedAbis>armeabi,armeabi-v7a,x86</AndroidSupportedAbis>
+    <AndroidStoreUncompressedFileExtensions />
+    <MandroidI18n />
+    <JavaMaximumHeapSize>
+    </JavaMaximumHeapSize>
+    <JavaOptions />
+    <MonoDroidExtraArgs />
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Acr.UserDialogs">
+      <HintPath>..\..\packages\Acr.UserDialogs.3.3.3\lib\MonoAndroid10\Acr.UserDialogs.dll</HintPath>
+    </Reference>
+    <Reference Include="Acr.XamForms.UserDialogs">
+      <HintPath>..\..\packages\Acr.XamForms.UserDialogs.3.0.4\lib\MonoAndroid10\Acr.XamForms.UserDialogs.dll</HintPath>
+    </Reference>
+    <Reference Include="Acr.XamForms.UserDialogs.Droid">
+      <HintPath>..\..\packages\Acr.XamForms.UserDialogs.3.0.4\lib\MonoAndroid10\Acr.XamForms.UserDialogs.Droid.dll</HintPath>
+    </Reference>
+    <Reference Include="AndHUD">
+      <HintPath>..\..\packages\Acr.UserDialogs.3.3.3\lib\MonoAndroid10\AndHUD.dll</HintPath>
+    </Reference>
+    <Reference Include="FormsViewGroup, Version=1.5.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\packages\Xamarin.Forms.1.4.2.6359\lib\MonoAndroid10\FormsViewGroup.dll</HintPath>
+    </Reference>
+    <Reference Include="Mono.Android" />
+    <Reference Include="mscorlib" />
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Net.Http.Extensions">
+      <HintPath>..\..\packages\Microsoft.Net.Http.2.2.29\lib\monoandroid\System.Net.Http.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Net.Http.Primitives, Version=1.5.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\packages\Microsoft.Net.Http.2.2.29\lib\monoandroid\System.Net.Http.Primitives.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Xml" />
+    <Reference Include="Xamarin.Android.Support.v4, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\packages\Xamarin.Android.Support.v4.22.0.0.0\lib\MonoAndroid10\Xamarin.Android.Support.v4.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Forms.Core, Version=1.5.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\packages\Xamarin.Forms.1.4.2.6359\lib\MonoAndroid10\Xamarin.Forms.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Forms.Platform, Version=1.0.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\packages\Xamarin.Forms.1.4.2.6359\lib\MonoAndroid10\Xamarin.Forms.Platform.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Forms.Platform.Android, Version=1.5.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\packages\Xamarin.Forms.1.4.2.6359\lib\MonoAndroid10\Xamarin.Forms.Platform.Android.dll</HintPath>
+    </Reference>
+    <Reference Include="Xamarin.Forms.Xaml, Version=1.5.0.0, Culture=neutral, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <HintPath>..\..\packages\Xamarin.Forms.1.4.2.6359\lib\MonoAndroid10\Xamarin.Forms.Xaml.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="CustomRenderer\CheckBoxRenderer.cs" />
+    <Compile Include="CustomRenderer\ExtendedEntryRenderer.cs" />
+    <Compile Include="CustomRenderer\RadioButtonRenderer.cs" />
+    <Compile Include="DependencyService\NetworkOperation.cs" />
+    <Compile Include="MainActivity.cs" />
+    <Compile Include="Resources\Resource.Designer.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="app.config" />
+    <None Include="packages.config">
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="Resources\AboutResources.txt" />
+    <None Include="Assets\AboutAssets.txt" />
+  </ItemGroup>
+  <ItemGroup>
+    <AndroidResource Include="Resources\Drawable\Icon.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Properties\AndroidManifest.xml" />
+    <AndroidResource Include="Resources\Drawable\down_arrow.png" />
+    <AndroidResource Include="Resources\Drawable\home.png" />
+    <AndroidResource Include="Resources\Drawable\left_menu.png" />
+    <AndroidResource Include="Resources\Drawable\line_menu.png" />
+    <AndroidResource Include="Resources\Drawable\school.png" />
+    <AndroidResource Include="Resources\Drawable\search.png" />
+    <AndroidResource Include="Resources\Drawable\arrowright.png" />
+    <AndroidResource Include="Resources\Drawable\arrowleft.png" />
+    <AndroidResource Include="Resources\Drawable\accounts.png" />
+    <AndroidResource Include="Resources\Drawable\error.png" />
+    <AndroidResource Include="Resources\Drawable\success.png" />
+    <AndroidResource Include="Resources\Drawable\ApplyLeaveL.png" />
+    <AndroidResource Include="Resources\Drawable\ApplyLeave.png" />
+    <AndroidResource Include="Resources\Drawable\ComplainBoxL.png" />
+    <AndroidResource Include="Resources\Drawable\ComplainBox.png" />
+    <AndroidResource Include="Resources\Drawable\EnterStudentMarkL.png" />
+    <AndroidResource Include="Resources\Drawable\EnterStudentMark.png" />
+    <AndroidResource Include="Resources\Drawable\ExamTimetableL.png" />
+    <AndroidResource Include="Resources\Drawable\ExamTimetable.png" />
+    <AndroidResource Include="Resources\Drawable\FillUpAttendanceL.png" />
+    <AndroidResource Include="Resources\Drawable\FillUpAttendance.png" />
+    <AndroidResource Include="Resources\Drawable\HoweWorkL.png" />
+    <AndroidResource Include="Resources\Drawable\HoweWork.png" />
+    <AndroidResource Include="Resources\Drawable\LogbookFillupL.png" />
+    <AndroidResource Include="Resources\Drawable\LogbookFillup.png" />
+    <AndroidResource Include="Resources\Drawable\LogOutL.png" />
+    <AndroidResource Include="Resources\Drawable\LogOut.png" />
+    <AndroidResource Include="Resources\Drawable\StudentBehaviourNoticeL.png" />
+    <AndroidResource Include="Resources\Drawable\StudentBehaviourNotice.png" />
+    <AndroidResource Include="Resources\Drawable\TodayScheduleL.png" />
+    <AndroidResource Include="Resources\Drawable\TodaySchedule.png" />
+    <AndroidResource Include="Resources\Drawable\UploadSamplePaperL.png" />
+    <AndroidResource Include="Resources\Drawable\UploadSamplePaper.png" />
+    <AndroidResource Include="Resources\Drawable\ViewActivityNoticeL.png" />
+    <AndroidResource Include="Resources\Drawable\ViewActivityNotice.png" />
+    <AndroidResource Include="Resources\Drawable\ViewAttendanceSummaryL.png" />
+    <AndroidResource Include="Resources\Drawable\ViewAttendanceSummary.png" />
+    <AndroidResource Include="Resources\Drawable\ViewResultL.png" />
+    <AndroidResource Include="Resources\Drawable\ViewResult.png" />
+    <AndroidResource Include="Resources\Drawable\Notification.png" />
+    <AndroidResource Include="Resources\Drawable\NotificationL.png" />
+    <AndroidResource Include="Resources\Drawable\ViewComplainL.png" />
+    <AndroidResource Include="Resources\Drawable\ViewComplain.png" />
+    <AndroidResource Include="Resources\Drawable\ViewAttendance.png" />
+    <AndroidResource Include="Resources\Drawable\ViewAttendanceL.png" />
+    <AndroidResource Include="Resources\Drawable\HomeWorkL.png" />
+    <AndroidResource Include="Resources\Drawable\HomeWork.png" />
+    <AndroidResource Include="Resources\Drawable\N4.png" />
+    <AndroidResource Include="Resources\Drawable\L4.png" />
+    <AndroidResource Include="Resources\Drawable\L3.png" />
+    <AndroidResource Include="Resources\Drawable\N3.png" />
+    <AndroidResource Include="Resources\Drawable\test.png" />
+    <AndroidResource Include="Resources\Drawable\test23.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\..\SchoolManagement.Helper\SchoolManagement.Helper.csproj">
+      <Project>{915bf157-d09d-408d-ba7e-1c355ade566e}</Project>
+      <Name>SchoolManagement.Helper</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\SchoolManagement\SchoolManagement.csproj">
+      <Name>SchoolManagement</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath)\Xamarin\Android\Xamarin.Android.CSharp.targets" />
+  <Import Project="$(SolutionDir)\.nuget\NuGet.targets" Condition="Exists('$(SolutionDir)\.nuget\NuGet.targets')" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Enable NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+     Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
